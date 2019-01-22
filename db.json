@@ -1,0 +1,91 @@
+{
+  "Paletas": [
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor coco",
+      "precio": "10",
+      "foto": "http://drive.google.com/uc?export=view&id=1QlPubZyUlnIhrDEgeT_RNSNfVlg-z7_s"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor chicle",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1sptpkDXQANlh2Kw29h3X5PEeTo8x7mb1"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor jamaica",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1lbDOMuVLrclxTRK2PAKl0w1WFCK2oCGl"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor naranja",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1cXi6r0lxMACJ75I5c0PNOvmQ4lcQMDso"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor piña",
+      "precio": "10",
+      "foto": "http://drive.google.com/uc?export=view&id=1zvs0CuLVIGYC2uFkr0SQD_dMyCnYkEvS"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor uva",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=19ZYzKsukXZu5F0VabrlF1yRwgcROJECb"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor frutas",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=17l5CkibuT3D3pWrCU7ZYl061h_1n-hpI"
+    },
+    {
+      
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango con chile",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1mtsy3zai0huNV4ESWuZzMgvMK1tckk5N"
+    }
+  ],
+  "Bebidas": [
+    {
+      
+      "nombre": "Agua",
+      "descripcion": "agua de sabor",
+      "precio": 15,
+      "foto": "http://drive.google.com/uc?export=view&id=1QlPubZyUlnIhrDEgeT_RNSNfVlg-z7_s"
+    },
+    {
+      
+      "nombre": "Agua",
+      "descripcion": "agua de sabor",
+      "precio": 15,
+      "foto": "http://drive.google.com/uc?export=view&id=1sptpkDXQANlh2Kw29h3X5PEeTo8x7mb1"
+    },
+    {
+      
+      "nombre": "Agua",
+      "descripcion": "agua de sabor",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1lbDOMuVLrclxTRK2PAKl0w1WFCK2oCGl"
+    }
+  ],
+  "historial":[
+   {
+    
+    "producto": "agua",
+    "cantidad": 4,
+    "precio": 34
+  }
+]
+}

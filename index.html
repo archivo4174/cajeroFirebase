@@ -115,35 +115,23 @@
 					<div class="card-body">
 						<h5 id="nom" class="card-title">gggg</h5>
 						<span >Precio:</span>
-						<h6 style="width:75%; float:right;" id="prec-' + i + '" class="card-title">uttyu</h6> 
+						<h6 style="width:75%; float:right;" id="prec-' + i + '" class="card-title">uttyu</h6>
+						
 						<p style="width:100%; float:right;" class="card-text">hhhhh</p>
-						<div><div class="input-group">
-          <span class="input-group-btn">
-              <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
-                <span class="glyphicon glyphicon-minus"></span>
-              </button>
-          </span>
-          <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100">
-          <span class="input-group-btn">
-              <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
-                  <span class="glyphicon glyphicon-plus"></span>
-              </button>
-          </span>
-      </div>
-
-							
-							<a " href="#" class="btn btn-ttc" id="agregar" onClick="facturar(' + i + ')">agregar</a>
-						</div>
+						<div>
+							<div>
+						<input id="" class="form-control colorful" type="number" value="1" min="1"  />
+						<a " class="btn btn-ttc" id="agregar" onClick="facturar(' + i + ')">
+						<img src="imagenes/car.png">
+						</a>
+							</div>
 					</div>
 				</div>
-			</div>
-
-
-			
-
+			</div>			
 		</div>
-	</div>
 
+	</div>
+</div>
 
 
 
@@ -204,5 +192,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="bootstrap-number-input.js"></script>
+<script>
+// Remember set you events before call bootstrapSwitch or they will fire after bootstrapSwitch's events
+$("[name='checkbox2']").change(function() {
+	if(!confirm('Do you wanna cancel me!')) {
+		this.checked = true;
+	}
+});
 
+$('#after').bootstrapNumber();
+$('.colorful').bootstrapNumber({
+	upClass: 'success',
+	downClass: 'danger'
+});
+
+</script>
+
+
+</html>
 
